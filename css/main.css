@@ -1,0 +1,150 @@
+body {
+    background-color: #f6ebdd;
+   
+  }
+  .btn-primary{
+background-color: #40a55c;
+width:;
+  }
+.btn-primary:hover{
+    background-color: #559b69;
+}
+  
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: l;
+    font-weight:bold;
+  }
+  h2{
+    margin: 35px;
+    color: #40a55c;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .highlight-title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    position: relative;
+    width: auto;
+    text-align: center;
+  }
+  
+  .underline {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 5px;
+    margin-top: 20px;
+    border-bottom: 3px dotted #333;
+  }
+  
+  .highlight-title::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 18%;
+    height: 25%; 
+    background-color: #fec260;
+    z-index: -1;
+    transition: height 0.3s ease, bottom 0.3s ease;
+  }
+  
+  .highlight-title:hover::before {
+    height: 70%;
+    bottom: 0;
+  }
+  .Submit {
+    
+    background-color: #d1512d; 
+    border-color: #d1512d; 
+    color: #fff; 
+    margin: auto;
+    padding: 10px 100px; /* تعديل الحواف لتكبير الزر */
+    font-size: large;
+    display: flex;
+    text-align: center;
+}
+
+.Submit:hover {
+    color:white;
+    background-color: #b33d24; /* لون الخلفية عند التمرير */
+    border-color: #b33d24; /* لون الحدود عند التمرير */
+}
+  
+  .feild {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+    width: 100%;
+  }
+  
+  .feild input {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .feild button {
+    width: 100px;
+  }
+  
+  button {
+    justify-content: center;
+  }
+  
+  label {
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+  }
+  .table {
+    border-collapse: collapse; 
+    background-color: #ffffff; 
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.table th,
+.table td {
+    border: none; 
+}
+
+.table thead th {
+    background-color: #f8f9fa;
+    font-weight: bold; 
+}
+
+.table tbody td {
+    padding: 10px; 
+    background-color: #ffffff; /* خلفية بيضاء للخلايا */
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6; /* تفعيل الحدود مع لون رمادي فاتح */
+    background-color: #ffffff; /* خلفية بيضاء للجدول */
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #dee2e6; /* حدود رمادية للخلايا */
+    background-color: #ffffff; /* خلفية بيضاء للخلايا */
+}
